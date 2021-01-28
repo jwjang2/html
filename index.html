@@ -4,19 +4,30 @@
 	<title>WEB01 - Welcomm</title>
 	<meta charset="utf-8">
 	<style type="text/css">
+		h1 {
+			font-size: 45px;
+			text-align: center;
+		}
 		a {
 			color: black;
 			text-decoration: none;
 		}
+		.part {
+			color: gray;
+		}
+		#active {
+			color: red;
+		}
+
 	</style>
 </head>
 
 <body>
-	<h1><a href="index.html" style="color: red;text-decoration: underline;">WEB</a></h1>
+	<h1><a href="index.html"  id="active"">WEB</a></h1>
 	<ol>
-		<li><a href="1.html">HTML</a></li>
-		<li><a href="2.html">CSS</a></li>
-		<li><a href="3.html">JavaScript</a></li>
+		<li><a href="1.html" class="part">HTML</a></li>
+		<li><a href="2.html" class="part">CSS</a></li>
+		<li><a href="3.html" class="part">JavaScript</a></li>
 	</ol>	
 
 	<h2>WEB</h2>
